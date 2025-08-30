@@ -1,8 +1,41 @@
-.avatar {
-  margin: 20px;
-  display: flexbox;
-  image-rendering: auto;
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-li {
-  float: inherit;
+
+.avatars {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.option {
+  position: relative;
+  margin: 20px;
+}
+
+.option img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1.8px solid white;
+}
+
+.status.off {
+  background-color: #dbdbdb;
+}
+
+.status.on {
+  background-color: #4cfe88;
 }
