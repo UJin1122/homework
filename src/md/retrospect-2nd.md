@@ -58,5 +58,5 @@
 
 몸 관리를 제대로 하지 못했다. 1일 1운동 챌린지에 참여한것도 운동해서 체력을 좀 기르려는거였는데 ~~스트레칭은 운동으로 안친다~~ 하필 감기에 걸렸다. 같은 조원 한분도 감기에 걸리셔서 조퇴하시는걸 보고 지금 감기가 유행인가보다 생각하고 대수롭지않게 넘겼는데 ~~그땐 몰랐지. 그게 내얘기일줄은.~~ 아프긴 했지만 조퇴하게되면 수업 진도를 따라가지 못할것같아 무섭기도 하고 약먹으면 견딜만해서 그냥 버텼다. 이제 거의 다 나았으니 다음주엔 몸관리 좀 잘하자!
 
-이미지
+건강이 채고다
 ![아프지마도토도토](<https://mblogthumb-phinf.pstatic.net/MjAyMjExMTZfMjg4/MDAxNjY4NjAxNTQ0MTgw.geFr_HwAEtFOsWhbPzrbEK6-GOIZV8rDCqP9d0QiX4wg.2rq25Cx002AUgy4QAF30vW3xpZhAlkpI-mEHbO-l_7og.JPEG.gngnt2002/%EF%BB%BF%EC%9A%B0%EB%8A%94_%EA%B3%A0%EC%96%91%EC%9D%B4_%EC%A7%A4_%EB%AA%A8%EC%9D%8C_(12).jpg?type=w800>)
