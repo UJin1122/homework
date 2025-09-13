@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -10,7 +10,113 @@
     <link rel="stylesheet" href="./styles/apple.css" />
   </head>
   <body>
-    <!-- 카드 레이아웃 -->
+    <div class="container">
+      <header>
+        <h1 class="sr-only">Apple 제품 소개</h1>
+      </header>
+      <main>
+        <section class="layout">
+          <article class="card ipad-pro" aria-labelledby="iPadPro">
+            <div class="product">
+              <h2 id="iPadPro" class="title">iPad Pro</h2>
+              <p class="information">
+                놀라우리만치 얇다.
+                <br />
+                엄청나게 강력하다.
+              </p>
+              <p class="day">출시일 추후 공개</p>
+              <div class="link-list">
+                <a href="/" class="link-blue">더 알아보기</a>
+                <a href="/" class="link-blue">가격 보기</a>
+              </div>
+            </div>
+          </article>
 
+          <article class="card ipad-air" aria-labelledby="iPadAir">
+            <div class="product">
+              <h2 id="iPadAir" class="title">iPad Air</h2>
+              <p class="information">
+                두 가지 사이즈. 더 빠른 칩.
+                <br />
+                무엇이든 거뜬하게.
+              </p>
+              <p class="day">출시일 추후 공개</p>
+              <div class="link-list">
+                <a href="/" class="link-black">더 알아보기</a>
+                <a href="/" class="link-black">가격 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card iphone-15-pro" aria-labelledby="iPhone15Pro">
+            <div class="product">
+              <h2 id="iPhone15Pro" class="title">iPhone 15 Pro</h2>
+              <p class="information">티타늄. 초강력. 초경량. 초프로.</p>
+              <div class="link-list">
+                <a href="/" class="link-blue">더 알아보기</a>
+                <a href="/" class="link-blue">가격 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card iphone-15" aria-labelledby="iPhone15">
+            <div class="product">
+              <h2 id="iPhone15" class="title">iPhone 15</h2>
+              <p class="information">
+                새로운 카메라.
+                <br />
+                새로운 디자인.
+                <br />
+                새로움이 물씬.
+              </p>
+              <div class="link-list">
+                <a href="/" class="link-black">더 알아보기</a>
+                <a href="/" class="link-black">가격 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card apple-watch" aria-labelledby="appleWatch">
+            <div class="product">
+              <h2 id="appleWatch" class="title">WATCH</h2>
+              <p class="information">보다 똑똑. 보다 또렷. 보다 강력.</p>
+              <div class="link-list">
+                <a href="/" class="link-blue">더 알아보기</a>
+                <a href="/" class="link-blue">가격 보기</a>
+              </div>
+            </div>
+          </article>
+          <article class="card macbook-air" aria-labelledby="macBookAir">
+            <div class="product">
+              <h2 id="macBookAir" class="title">MacBook Air</h2>
+              <p class="information">날렵하게. 강력하게. M3답게.</p>
+              <div class="link-list">
+                <a href="/" class="link-black">더 알아보기</a>
+                <a href="/" class="link-black">가격 보기</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card airpods-pro" aria-labelledby="airPodsPro">
+            <div class="product">
+              <h2 id="airPodsPro" class="title">AirPods Pro</h2>
+              <p class="information">
+                전에 없던 청취 경험.
+                <br />
+                적응형 오디오.
+              </p>
+              <div class="link-list">
+                <a href="/" class="link-blue">더 알아보기</a>
+                <a href="/" class="link-blue">가격 보기</a>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p>2025.09.13</p>
+        <p>likelion.frontend.bootcamp.15th-Assignment for Week 4</p>
+      </footer>
+    </div>
   </body>
 </html>

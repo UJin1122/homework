@@ -1,3 +1,169 @@
-@import "./card-component.css";
+@import './card-component.css';
 
-/* 카드 레이아웃 */
+.card {
+  width: 100%;
+  height: var(--size);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--white);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product {
+  padding: var(--large-spacing);
+  text-align: center;
+  width: 100%;
+}
+.title {
+  font-size: var(--large-text);
+  font-weight: 700;
+  margin-bottom: var(--x-small-spacing);
+}
+
+.information {
+  font-size: var(--base-text);
+  margin-bottom: var(--x-small-spacing);
+}
+
+.day {
+  font-size: var(--small-text);
+  margin-bottom: var(--x-small-spacing);
+  color: var(--gray);
+}
+
+.link-list {
+  display: flex;
+  justify-content: center;
+  gap: var(--base-spacing);
+  margin-block-start: var(--small-spacing);
+
+  .link-blue {
+    border: 1px solid var(--blue-100);
+    border-radius: 100px;
+    color: var(--blue-100);
+    text-decoration: none;
+    font-size: var(--xx-small-text);
+    padding: var(--x-small-spacing) var(--small-spacing);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--blue-200);
+      color: var(--white);
+      border-color: var(--blue-200);
+    }
+  }
+  .link-blue :nth-child(odd) {
+    background: var(--blue-100);
+    color: var(--white);
+  }
+
+  .link-black {
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    color: var(--black);
+    text-decoration: none;
+    font-size: var(--xx-small-text);
+    padding: var(--x-small-spacing) var(--small-spacing);
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: var(--gray);
+    }
+  }
+  .link-black:nth-child(1) {
+    border: none;
+    background: var(--black);
+    color: var(--white);
+  }
+}
+
+@media (min-width: 1024px) {
+  .product {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: var(--extra-large-text);
+  }
+
+  .information {
+    font-size: var(--medium-text);
+  }
+
+  .link {
+    font-size: var(--xx-small-text);
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.ipad-air,
+.iphone-15,
+.macbook-air {
+  color: var(--black);
+}
+
+.ipad-pro {
+  background-image: url('../products/ipad_pro.jpeg');
+}
+.ipad-air {
+  background-image: url('../products/ipad_air.jpeg');
+}
+
+.iphone-15-pro {
+  background-image: url('../products/iphone15_pro.jpeg');
+}
+
+.iphone-15 {
+  background-image: url('../products/iphone15.jpeg');
+}
+
+.apple-watch {
+  background-image: url('../products/apple_watch.jpeg');
+}
+
+.macbook-air {
+  background-image: url('../products/macbook_air.jpeg');
+}
+
+.airpods-pro {
+  background-image: url('../products/airpods_pro.jpeg');
+}
+
+@media (min-width: 1024px) {
+  .ipad-pro,
+  .ipad-air,
+  .iphone-15-pro {
+    grid-column: span 2;
+  }
+  .container {
+    max-width: 1440px;
+  }
+
+  .layout {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--small-spacing);
+  }
+}
+
+footer {
+  text-align: center;
+  margin-block-start: var(--small-spacing);
+  padding: var(--small-spacing);
+  font-size: var(--xx-small-text);
+  color: var(--gray);
+}
